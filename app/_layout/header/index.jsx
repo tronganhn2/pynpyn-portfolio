@@ -16,12 +16,12 @@ export function Header() {
       initial='initial'
       animate='enter'
     >
-      <CldImage
+      <img
         src='Dennis-Portfolio/images/lapetmmek4fymz68m4u8'
         className='object-cover md:scale-125 md:object-contain'
         fill={true}
         sizes='100vw'
-        alt='Dennis Snellenberg Personal Picture'
+        alt='Pham Yen Nhi Personal Picture'
       />
 
       <div className='relative flex h-full flex-col justify-end gap-2 md:flex-col-reverse md:justify-normal'>
@@ -29,7 +29,7 @@ export function Header() {
           <h1 className='text-[max(9em,15vw)]'>
             <ParallaxSlider repeat={4} baseVelocity={2}>
               <span className='pe-12'>
-                Dennis Snellenberg
+                Pham Yen Nhi
                 <span className='spacer'>—</span>
               </span>
             </ParallaxSlider>
@@ -44,7 +44,7 @@ export function Header() {
 
             <h4 className='text-[clamp(1.55em,2.5vw,2.75em)]'>
               <span className='block'>Freelance</span>
-              <span className='block'>Designer &amp; Developer</span>
+              <span className='block'>Interior &amp; Designer</span>
             </h4>
           </div>
         </div>

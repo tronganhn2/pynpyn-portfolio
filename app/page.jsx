@@ -10,9 +10,9 @@ import {
 
 /** @type {import('next').Metadata} */
 export const metadata = {
-  title: 'Home | Dennis Snellenberg',
+  title: 'Home | Pham Yen Nhi',
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Dennis',
+    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Pham Yen Nhi Portfolio',
 };
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
       <main>
         <Description />
         <Thumbnail />
-        <Project />
+        {/* <Project /> */}
       </main>
       <Contact />
     </Transition>

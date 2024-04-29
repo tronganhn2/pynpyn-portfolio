@@ -21,7 +21,7 @@ export const ThumbnailModal = forwardRef(
       const id = randomId();
       return (
         <Center key={id} className='h-full w-full'>
-          <CldImage
+          <img
             src={image}
             width={320}
             height={320}

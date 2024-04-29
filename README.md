@@ -50,7 +50,7 @@ An Portfolio site template, implemented with [Next.js](https://nextjs.org/) and 
 
 ## ✨ Demo
 
-You can visit and explore portfolio in the [Dennis Snellenberg Portfolio](https://dennis-snellenberg-portfolio.vercel.app/) template.
+You can visit and explore portfolio in the [Pham Yen Nhi Portfolio](https://dennis-snellenberg-portfolio.vercel.app/) template.
 
 ## 🔥 Features
 
@@ -107,3 +107,6 @@ Don't forget to give the project a star! Thanks again!
 </p>
 
 <p align="right">(<a href="#top">BACK TO TOP🔝</a>)</p>
+
+<!-- https://postimg.cc/gallery/PNnn0mX -->
+<!-- https://postimg.cc/9zWxrmCC -->

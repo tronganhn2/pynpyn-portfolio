@@ -19,11 +19,11 @@ export function UserDetails({ transformX }) {
       <Row>
         <div className='flex items-center gap-8'>
           <ImageWrapper>
-            <CldImage
-              src='Dennis-Portfolio/images/mqtwxh5znybowgaljrbp'
-              className='rounded-full object-cover'
+            <img
+              src='https://i.postimg.cc/MZBg3HLM/DSC04602.jpg'
+              className='rounded-full object-cover w-20 h-20'
               fill={true}
-              alt='Dennis Snellenberg Profile Picture'
+              alt='Pham Yen Nhi Profile Picture'
             />
           </ImageWrapper>
           <MainTitle>Let’s work</MainTitle>
@@ -60,7 +60,7 @@ export function UserDetails({ transformX }) {
                 size='md'
                 className='w-full border-muted-foreground'
               >
-                info@dennissnellenberg.com
+                info@pynpyn
               </MagneticButton>
             </a>
           </div>
@@ -71,7 +71,7 @@ export function UserDetails({ transformX }) {
                 size='md'
                 className='w-full border-muted-foreground'
               >
-                +31 6 27 84 74 30
+                +00 000 000 00
               </MagneticButton>
             </a>
           </div>

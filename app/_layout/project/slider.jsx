@@ -12,7 +12,7 @@ import { Center } from '@/components';
 export function ProjectSlider({ type, source }) {
   const image =
     type === 'image' ? (
-      <CldImage
+      <img
         src={source}
         className='object-cover'
         fill={true}
@@ -21,7 +21,7 @@ export function ProjectSlider({ type, source }) {
     ) : null;
   const video =
     type === 'video' ? (
-      <CldVideoPlayer
+      <video
         src={source}
         loop={true}
         controls={false}
