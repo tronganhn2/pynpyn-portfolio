@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 import { motion } from 'framer-motion';
 import { Dot } from 'lucide-react';
@@ -10,7 +11,6 @@ import { preloaderWords } from '@/data';
 import { useDimensions, useTimeOut } from '@/hooks';
 
 import { fade, slideUp } from './variants';
-import { usePathname } from 'next/navigation';
 
 const MotionComponent = motion(Center);
 
