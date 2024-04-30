@@ -6,7 +6,7 @@ export const rootMetadata = {
     default: 'Pham Yen Nhi • Freelance Designer & Developer',
   },
   description:
-    'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Pham Yen Nhi Portfolio',
+    'I am a passionate and creative 4th year interior design student. With a strong eye for detail and a keen understanding of space planning, I am driven to transform functional spaces into beautiful and inspiring environments. © Pham Yen Nhi Portfolio',
   generator: 'Pham Yen Nhi',
   applicationName: 'Pham Yen Nhi',
   referrer: 'origin-when-cross-origin',
@@ -20,7 +20,7 @@ export const rootMetadata = {
     card: 'summary_large_image',
     title: 'Pham Yen Nhi',
     description:
-      'Helping brands thrive in the digital world. Located in The Netherlands. Delivering tailor-made digital designs and building interactive websites from scratch. © Pham Yen Nhi Portfolio',
+      'I am a passionate and creative 4th year interior design student. With a strong eye for detail and a keen understanding of space planning, I am driven to transform functional spaces into beautiful and inspiring environments. © Pham Yen Nhi Portfolio',
     siteId: '1467726470533754880',
     creator: '@AliBagheri2079',
     creatorId: '1467726470533754880',

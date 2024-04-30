@@ -35,7 +35,8 @@ export function SocialInfo() {
 
         <div className='flex flex-col'>
           <ListTitle>Socials</ListTitle>
-          <ul className='flex gap-8'>{medias}</ul>
+          {/* // TODO turn on */}
+          {/* <ul className='flex gap-8'>{medias}</ul> */}
         </div>
       </div>
     </div>

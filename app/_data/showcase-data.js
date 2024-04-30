@@ -17,7 +17,7 @@ export const showcaseOptions = [
   },
   {
     href: 'https://www.behance.net/gallery/197436091/CONTINENTAL-SAIGON-HOTEL-PROJECT',
-    title: 'CONTINENTAL SAI GON HOTL PROJECT',
+    title: 'CONTINENTAL SAI GON HOTEL PROJECT',
     image:
       'https://mir-s3-cdn-cf.behance.net/project_modules/fs/8eb38c197436091.663094404a80f.jpg',
     thumbnail:

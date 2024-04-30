@@ -41,7 +41,7 @@ export function ThumbnailList({
         >
           <h4
             style={{
-              fontSize: 'calc(clamp(3.25em, 7vw, 8em) * 0.75)',
+              fontSize: 'calc(clamp(3.25em, 7vw, 8em) * 0.45)',
             }}
           >
             {title}
