@@ -11,8 +11,8 @@ export const navItems = [
     href: '/about',
     title: 'about',
   },
-  {
-    href: '/contact',
-    title: 'contact',
-  },
+  // {
+  //   href: '#contact-section',
+  //   title: 'contact',
+  // },
 ];

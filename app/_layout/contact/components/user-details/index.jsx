@@ -43,7 +43,7 @@ export function UserDetails({ transformX }) {
             <motion.div style={{ x: transformX }}>
               <Link href='/contact' passHref>
                 <MagneticButton variant='primary' size='lg'>
-                  Get in touch
+                  View my CV
                 </MagneticButton>
               </Link>
             </motion.div>
@@ -64,7 +64,7 @@ export function UserDetails({ transformX }) {
               </MagneticButton>
             </a>
           </div>
-          <div>
+          {/* <div>
             <a href='tel:+31627847430'>
               <MagneticButton
                 variant='outline'
@@ -74,7 +74,7 @@ export function UserDetails({ transformX }) {
                 +00 000 000 00
               </MagneticButton>
             </a>
-          </div>
+          </div> */}
         </div>
       </Row>
     </Container>

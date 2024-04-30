@@ -13,6 +13,8 @@ export function ProjectSlider({ type, source }) {
   const image =
     type === 'image' ? (
       <img
+        width={200}
+        height={200}
         src={source}
         className='object-cover'
         fill={true}

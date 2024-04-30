@@ -10,12 +10,15 @@ import { preloaderWords } from '@/data';
 import { useDimensions, useTimeOut } from '@/hooks';
 
 import { fade, slideUp } from './variants';
+import { usePathname } from 'next/navigation';
 
 const MotionComponent = motion(Center);
 
 export function Preloader() {
   const [index, setIndex] = useState(0);
   const { width, height } = useDimensions();
+  const pathname = usePathname();
+  const isWorkPage = pathname === '/work';
 
   useTimeOut({
     callback: () => {
@@ -60,7 +63,7 @@ export function Preloader() {
             animate='enter'
           >
             <Dot size={48} className='me-3' />
-            <p>{preloaderWords[index]}</p>
+            <p>{isWorkPage ? "Pham Yen Nhi's works" : preloaderWords[index]}</p>
           </MotionComponent>
           <motion.svg className='absolute top-0 -z-10 h-[calc(100%+300px)] w-full'>
             <motion.path

@@ -23,7 +23,7 @@ export default function Home() {
       <main>
         <Description />
         <Thumbnail />
-        {/* <Project /> */}
+        <Project />
       </main>
       <Contact />
     </Transition>
