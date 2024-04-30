@@ -24,7 +24,7 @@ export function SocialInfo() {
   });
 
   return (
-    <div className='px-12 pb-4 pt-10'>
+    <div className='px-12 pb-4 pt-8'>
       <div className='flex flex-wrap items-stretch justify-between gap-5'>
         <div className='flex gap-8'>
           <div>
@@ -35,8 +35,7 @@ export function SocialInfo() {
 
         <div className='flex flex-col'>
           <ListTitle>Socials</ListTitle>
-          {/* // TODO turn on */}
-          {/* <ul className='flex gap-8'>{medias}</ul> */}
+          <ul className='flex gap-8'>{medias}</ul>
         </div>
       </div>
     </div>

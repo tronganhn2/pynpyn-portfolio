@@ -1,6 +1,6 @@
 /** @type {import('next').Metadata} */
 export const rootMetadata = {
-  metadataBase: new URL('https://dennis-snellenberg-portfolio.vercel.app/'),
+  metadataBase: new URL('https://www.phamyennhi.website/'),
   title: {
     template: '%s | Pham Yen Nhi',
     default: 'Pham Yen Nhi • Freelance Designer & Developer',
@@ -21,11 +21,11 @@ export const rootMetadata = {
     title: 'Pham Yen Nhi',
     description:
       'I am a passionate and creative 4th year interior design student. With a strong eye for detail and a keen understanding of space planning, I am driven to transform functional spaces into beautiful and inspiring environments. © Pham Yen Nhi Portfolio',
-    siteId: '1467726470533754880',
-    creator: '@AliBagheri2079',
-    creatorId: '1467726470533754880',
+    siteId: '14677264705337548806',
+    creator: 'Pham Yen Nhi',
+    creatorId: '14677264705337548806',
     images: {
-      url: 'https://dennis-snellenberg-portfolio.vercel.app/screenshot.png',
+      url: '',
       alt: 'Portfolio Screenshot',
     },
   },

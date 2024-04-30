@@ -41,7 +41,7 @@ export function UserDetails({ transformX }) {
           <div className='h-[1px] bg-muted-foreground' />
           <div className='absolute right-0 top-0 z-20 -translate-x-1/2 -translate-y-1/2'>
             <motion.div style={{ x: transformX }}>
-              <Link href='/contact' passHref>
+              <Link href='/about' passHref>
                 <MagneticButton variant='primary' size='lg'>
                   View my CV
                 </MagneticButton>

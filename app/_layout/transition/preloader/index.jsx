@@ -19,6 +19,7 @@ export function Preloader() {
   const { width, height } = useDimensions();
   const pathname = usePathname();
   const isWorkPage = pathname === '/work';
+  const isAboutPage = pathname === '/about';
 
   useTimeOut({
     callback: () => {
@@ -63,7 +64,13 @@ export function Preloader() {
             animate='enter'
           >
             <Dot size={48} className='me-3' />
-            <p>{isWorkPage ? "Pham Yen Nhi's works" : preloaderWords[index]}</p>
+            <p>
+              {isWorkPage
+                ? "Pham Yen Nhi's works"
+                : isAboutPage
+                  ? 'About Pham Yen Nhi'
+                  : preloaderWords[index]}
+            </p>
           </MotionComponent>
           <motion.svg className='absolute top-0 -z-10 h-[calc(100%+300px)] w-full'>
             <motion.path

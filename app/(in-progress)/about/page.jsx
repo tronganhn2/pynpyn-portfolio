@@ -1,5 +1,4 @@
-import { InProgress } from '@/components';
-import { Transition } from '@/layout';
+import { Navbar, Transition } from '@/layout';
 
 /** @type {import('next').Metadata} */
 export const metadata = {
@@ -11,7 +10,16 @@ export const metadata = {
 export default function About() {
   return (
     <Transition>
-      <InProgress>About Page</InProgress>
+      <div className='bg-black h-28'>
+        <Navbar />
+      </div>
+      <div>
+        <img
+          className='w-full h-full'
+          src='https://i.postimg.cc/9QhCv0t1/CVpyn.png'
+          alt='CV'
+        />
+      </div>
     </Transition>
   );
 }

@@ -18,7 +18,7 @@ export const metadata = {
 export default function Work() {
   return (
     <Transition>
-      <div className='bg-gray-400 h-28'>
+      <div className='bg-black h-28'>
         <Navbar />
       </div>
       <h1 className='mt-6 text-[64px] ml-36 bg-gradient-to-r from-[#6607F4] via-[#4B1196] to-[#4B1196] text-transparent bg-clip-text'>

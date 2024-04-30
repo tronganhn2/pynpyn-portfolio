@@ -1,11 +1,11 @@
-import { rootMetadata } from '@/config';
+// import { rootMetadata } from '@/config';
 import { neue_montreal } from '@/fonts';
 import { Offcanvas } from '@/layout';
 import { Providers } from '@/providers';
 import './globals.css';
 
 /** @type {import('next').Metadata} */
-export const metadata = rootMetadata;
+// export const metadata = rootMetadata;
 
 /** @param {import('react').PropsWithChildren<unknown>} */
 export default function RootLayout({ children }) {

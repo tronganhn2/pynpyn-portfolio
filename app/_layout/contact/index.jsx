@@ -21,7 +21,7 @@ export function Contact() {
     >
       <div
         // id='contact-section'
-        style={{ paddingBlock: 'clamp(5em, 15vh, 12em)' }}
+        style={{ paddingBlock: 'clamp(5em, 12vh, 12em)' }}
       >
         <UserDetails transformX={transformX} />
         <SocialInfo />
